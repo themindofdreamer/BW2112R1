@@ -1,0 +1,74 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 70%;
+    height: 80%;
+    background-color: cadetblue;
+    margin: auto;
+    margin-top: 5%;
+
+    /* CSS GRID */
+    display: grid;
+
+    /* GRID TEMPLATE */
+    /* 1fr = 1 fraction (mảnh)/ */
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: repeat(4, 1fr) ;
+
+    /* GAP */
+    /* row-gap: 30px;
+    column-gap: 10px; */
+    /* short: gap: row column; */
+    gap: 30px 10px; 
+
+    /* AREA */
+    grid-template-areas:
+        "header header header"
+        "ads content1 sidebar"
+        "ads content2 sidebar"
+        "footer footer footer";
+}
+
+
+
+
+.item-1 {
+    background-color: aqua;
+    grid-area: header;
+    /* 1 là điểm bắt đầu, 4 là điểm kết thúc */
+    /* grid-column: 1/4; */
+
+}
+
+.item-2 {
+    background-color: chartreuse;
+    grid-area: footer;
+    /* grid-row: 2/4; */
+}
+
+.item-3 {
+    background-color: brown;
+    grid-area: ads;
+}
+
+.item-4 {
+    background-color: deeppink;
+    grid-area: content1;
+}
+
+.item-5 {
+    background-color: lightcoral;
+    grid-area: content2;
+}
+
+.item-6 {
+    background-color: blue;
+    grid-area: sidebar;
+}

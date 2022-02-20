@@ -1,0 +1,26 @@
+/* Áp dụng cho toàn bộ p */
+p {
+    background-color: aquamarine;
+}
+/* Áp dụng cho p là con trong div */
+div p {
+    color: red;
+}
+
+div div p {
+    font-weight: bold;
+}
+
+/* Áp dụng cho p là con trực tiếp của body */
+body > p {
+    font-size: 36px;
+}
+
+/* Áp dụng cho p anh em kế cận */
+div + p {
+    text-decoration: underline;
+}
+
+div ~ p {
+    font-style: italic;
+}

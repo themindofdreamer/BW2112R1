@@ -1,0 +1,184 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    border-bottom: 5px solid darkgray;
+    
+}
+
+.section-1 {
+    height: 90%;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.section-2 {
+    background-color: #205C40;
+    height: 80%;
+    width: 100%;
+}
+
+.section-3 {
+    height: 70%;
+    width: 100%;
+}
+
+.section-4 {
+    background-color: #205C40;
+    height: 80%;
+    width: 100%;
+}
+
+header img {
+    height: 80%;
+    padding-left: 10px;
+    padding-top: 5px;
+    float: left;
+
+}
+
+header ul {
+    list-style-type: none;
+    float: left;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+header ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+header button {
+    float: right;
+    background-color: #205C40;
+    border: none;
+    height: 100%;
+    width: 80px;
+    color: white;
+    padding: 0 10px;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+.section-1 img {
+    height: 100%;
+    float: left;
+}
+
+.section-1 div {
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    text-align: right;
+    padding-top: 100px;
+
+}
+.section-1 div h1 {
+    color: #006845 ;
+    font-size: 40px;
+
+}
+
+.section-1 div p {
+    color: #565A63;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+.section-2 h2 {
+    width: 40%;
+    float: left;
+    font-size: 25px;
+    color: white; 
+    padding-left: 80px;
+    padding-top: 170px;
+}
+
+.section-2 img {
+    height: 100%;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 30px;
+}
+
+
+
+.section-3 h2 {
+    height: 100%;
+    padding: 150px;
+    text-align: center;
+    color: #1a202c;
+    font-size: 25px;
+    margin: 0 150px;
+}
+
+.section-4 img {
+    float: left;
+    height: 100%;
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    
+    
+}
+
+.section-4 h2 {
+    width: 40%;
+    float: right;
+    font-size: 25px;
+    color: white; 
+    padding: 150px 90px 0 0;
+    text-align: left;
+}
+
+.section-5 {
+    height: 80%;
+    width: 100%;
+}
+
+.section-5_info {
+    width: 40%;
+    float: left;
+    padding: 150px 50px 0 120px;
+}
+
+.section-5_info h2 {
+    color: #4e801f;
+    line-height: 1px;
+}
+
+.section-5_info p {
+    color: #565A63;
+    line-height: 25px;   
+}
+
+.section-5_info button {
+    border: none;
+    background-color: #205C40;
+    width: 140px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: black;
+}
+
+.section-5 img {
+    height: 80%
+    float: right;
+    padding-top: 100px;
+    padding-left: 50px;
+}

@@ -1,0 +1,87 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: coral;
+}
+
+header img {
+    width: 80px;
+    padding-left: 25%;
+    padding-top: 20px;
+}
+
+header input {
+    width: 40%;
+    height: 35px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+    border: none;
+}
+
+.product-container {
+    width: 60%;
+    margin: auto;
+    background-color: cadetblue;
+    
+}
+
+.product {
+    width: 14.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 10px 0;
+    border: 1px dashed crimson;
+    float: left;
+}
+
+.product img {
+    width: 100%;
+}
+
+/* MEDIA QUERY */
+@media screen and (max-width: 1000px) {
+    .product-container{
+        width: 100%;
+        padding-top: 140px;
+    }
+    /* cách tính width là 2 cột sp 50% trừ margin left right 5% */
+    .product{
+        width: 44%;
+    }
+
+    #header {
+        height: 140px;
+        position: fixed;
+    }
+
+    #header img {
+        padding: 0;
+        margin: auto;
+        display: block;
+        padding-top: 15px;
+    }
+
+    #header input {
+        bottom: -15px;
+        margin: auto;
+        display: block;
+        width: 90%;
+
+       
+    }
+
+}
+ 
+
+}
+
