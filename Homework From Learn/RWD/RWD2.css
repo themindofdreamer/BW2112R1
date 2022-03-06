@@ -39,8 +39,10 @@ html, body {
     }
 
 }
+
+
 @media screen and (max-width: 500px) {
     .responsive {
         width: 100%;
     }
-
+}
