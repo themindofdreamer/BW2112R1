@@ -7,7 +7,6 @@ $primary_text_color:white;
         font-family: $primary;
     }
 }
-
 #booking_header{
     height: auto;
     width: 100%;
@@ -39,29 +38,26 @@ $primary_text_color:white;
     text-decoration: none;
     color: grey;
 }
-#booking_content {
-    @include title($primary_font);
-    p {
-        font-family: $secondary_font;
-    }
     
-}
-
+     
 // BOOKING CONTENT 
 #booking {
     width: 100%;
     height: auto;
     #booking_content {
+        width: 70%;
         float: left;
-        
+        .title {
+            @include title ($primary_font);
+        }
         .booking_container {
-            width: 900px ;
+            width: 850px ;
             height: auto;
             background-color: #bb7d59;
             border-radius: 10px;
+            margin: 0;
             
-            
-            .booking_detail {
+            .booking_text {
                 img {
                     width: 390px;
                     height: 250px;
@@ -85,8 +81,6 @@ $primary_text_color:white;
         background-color: #bb7d59;
         display: block;
         float: right;
-        
-        
     }
 }
 

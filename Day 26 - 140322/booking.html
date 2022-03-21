@@ -116,63 +116,32 @@
     </nav>
   </div>
 
-  <!-- BOOKING CONTENT -->
-<div class="container" id="booking_main">
-  <div class="container booking_content">
-    <div class="booking_title">
+<!-- BOOKING -->
+  <div class="container-fluid p-0 m-0" id="booking">
+    <div class="container" id="booking_content">
+
       <h1 class="title text-center pt-3"><b>CHOOSE</b> YOUR ROOM</h1>
       <p class="text-center pt-3">Prices are for 1 person and 1 night.</p>
-      <p class="text-center">Prices are only valid for 15 minutes. Select the "Refresh prices" option when suggested.</p>
-    </div>
-    <div class="booking_checkbox">
-      <p>3 ROOMS FOR YOUR SEARCH</p>
-      <div class="filter_checkbox">
-        
-      </div>
-    </div>
-  </div>
-  <aside class="container checkout">
+      <p class="text-center">Prices are only valid for 15 minutes. Select the "Refresh prices" option when suggested.
+      </p>
 
-  </aside>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- <div class="container-fluid p-0 m-0" id="booking">
-    <div class="container" id="booking_content">
-      <div id="booking_layout ">
-        <h1 class="title text-center pt-3"><b>CHOOSE</b> YOUR ROOM</h1>
-        <p class="text-center pt-3">Prices are for 1 person and 1 night.</p>
-        <p class="text-center">Prices are only valid for 15 minutes. Select the "Refresh prices" option when suggested.
-        </p>
-
-        <div class="select_filter px-3 pt-5 row justify-content-between">
-          <h6 class="col-6">3 ROOMS FOR YOUR SEARCH</h6>
-          <div class="filter col-6 ">
-            <p class="d-inline-block">Filter : </p>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-              <label class="form-check-label" for="inlineCheckbox1">Free cancellation</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-              <label class="form-check-label" for="inlineCheckbox2">Breakfast included</label>
-            </div>
+      <div class="select_filter px-3 pt-5 row justify-content-between">
+        <h6 class="col-6">3 ROOMS FOR YOUR SEARCH</h6>
+        <div class="filter col-6 ">
+          <p class="d-inline-block">Filter : </p>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Free cancellation</label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Breakfast included</label>
           </div>
         </div>
-
+      </div>
+      <article class="booking_detail">
         <div class="container booking_container row col-8 pt-5 pb-5 mx-3 ">
-          <div class="booking_detail d-inline-block row ">
+          <div class="booking_text d-inline-block row ">
             <img src="./img/room_rate1.jpg" alt="">
             <div class="booking_name">
               <h5>Le Jardin, 1 King size bed, city view</h5>
@@ -186,7 +155,7 @@
           </div>
         </div>
         <div class="container booking_container row pt-5 pb-5 mx-3 mt-4 ">
-          <div class="booking_detail d-inline-block row ">
+          <div class="booking_text d-inline-block row ">
             <img src="./img/room_rate2.jpg" alt="">
             <div class="booking_name">
               <h5>Rue de Lamarck Suite, 1 King size bed, ocean view</h5>
@@ -200,7 +169,7 @@
           </div>
         </div>
         <div class="container booking_container row pt-5 pb-5 mx-3 mt-4 ">
-          <div class="booking_detail d-inline-block row ">
+          <div class="booking_text d-inline-block row ">
             <img src="./img/room_rate3.jpg" alt="">
             <div class="booking_name">
               <h5>Turquoise Suite, 1 King size bed, ocean & garden view</h5>
@@ -213,26 +182,27 @@
             <button type="button" class="btn btn-dark rounded-3 w-25 mt-5 ">select a rate</button>
           </div>
         </div>
-        <div class="policy mx-3">
-          <small>(1) The prices indicated are per accommodation (room, bed, etc.) or other services, for the number of
-            people and the date(s) selected previously, unless otherwise specified. If they are not included in the rate
-            or specifically selected when the reservation is made, supplementary services (breakfast, half board, full
-            board etc.) are available as option which can be paid at the hotel directly.
-            <br>
-            <br>
-            Taxes are included in the price or indicated in the tax details. Some taxes may be payable on arrival at the
-            hotel (for example, tourist tax), depending on current local regulations.
-            <br>
-            <br>
-            All bookings, wherever they are made, are payable in the hotel's currency.​ Only the amount confirmed during
-            the booking in the currency of the hotel is guaranteed. Conversion to the customer's currency is given for
-            reference only and is not part of the contract. Costs linked to conversions between the hotel's currency and
-            that of the customer (exchange rates, bank fees) shall be paid by the customer.​</small>
-        </div>
+      </article>
+      <div class="policy mx-3 col-11 m-0">
+        <small>(1) The prices indicated are per accommodation (room, bed, etc.) or other services, for the number of
+          people and the date(s) selected previously, unless otherwise specified. If they are not included in the rate
+          or specifically selected when the reservation is made, supplementary services (breakfast, half board, full
+          board etc.) are available as option which can be paid at the hotel directly.
+          <br>
+          <br>
+          Taxes are included in the price or indicated in the tax details. Some taxes may be payable on arrival at the
+          hotel (for example, tourist tax), depending on current local regulations.
+          <br>
+          <br>
+          All bookings, wherever they are made, are payable in the hotel's currency.​ Only the amount confirmed during
+          the booking in the currency of the hotel is guaranteed. Conversion to the customer's currency is given for
+          reference only and is not part of the contract. Costs linked to conversions between the hotel's currency and
+          that of the customer (exchange rates, bank fees) shall be paid by the customer.​</small>
       </div>
-    </div> -->
+      
+    </div>
     <!-- CHECK OUT -->
-    <!-- <div class="container row col-4 mx-4 rounded-3" id="checkout">
+    <div class="container col-4 mx-4 rounded-3" id="checkout">
       <div class="checkout_content pt-4">
         <h5>YOUR STAY</h5>
         <hr>
@@ -248,7 +218,67 @@
         <p class="text-center">select a room to continue</p>
       </div>
     </div>
-  </div> -->
+  
+  </div>
+  
+
+  <!-- FOOTER -->
+
+<div class="container-fluid row" id="footer">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-2">
+        <h5>le hÔtel</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">our story</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">booking</a></li>
+          
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>experiences</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">le restau</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">le spa</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">special offers</a></li>
+        </ul>
+      </div>
+      <div class="col-2">
+          <h5>location</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2">2311 le street, le ward, le city, earth.</li>
+            <li class="nav-item mb-2">T. +84 2583 233 233</li>
+            <li class="nav-item mb-2">E. rsvn@lehotel.com</li>
+            
+          </ul>
+        </div>
+      <div class="col-4 offset-1">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-dark" type="button">Subscribe</button>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>&copy; made with love by Anh.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+      
+    </div>
+  </footer>
+</div>
 
 
 

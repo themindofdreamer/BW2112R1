@@ -34,37 +34,35 @@
   color: grey;
 }
 
-#booking_content .title {
-  font-family: Playfair;
-}
-
-#booking_content p {
-  font-family: Epilogue;
-}
-
 #booking {
   width: 100%;
   height: auto;
 }
 
 #booking #booking_content {
+  width: 70%;
   float: left;
 }
 
+#booking #booking_content .title .title {
+  font-family: Playfair;
+}
+
 #booking #booking_content .booking_container {
-  width: 900px;
+  width: 850px;
   height: auto;
   background-color: #bb7d59;
   border-radius: 10px;
+  margin: 0;
 }
 
-#booking #booking_content .booking_container .booking_detail img {
+#booking #booking_content .booking_container .booking_text img {
   width: 390px;
   height: 250px;
   float: left;
 }
 
-#booking #booking_content .booking_container .booking_detail .rate {
+#booking #booking_content .booking_container .booking_text .rate {
   width: 385px;
   height: 70px;
   float: left;
