@@ -1,0 +1,64 @@
+#accommodations_header {
+  height: auto;
+  width: 100%;
+}
+
+#accommodations_header .navbar-brand {
+  font-family: Playfair;
+  font-weight: 600;
+  font-style: italic;
+  height: 20%;
+  color: white;
+  font-size: 30px;
+}
+
+#accommodations_header .carousel .carousel-item {
+  height: 500px;
+}
+
+#accommodations_header .carousel-item img {
+  position: absolute;
+  -o-object-fit: cover;
+     object-fit: cover;
+  top: 0;
+  left: 0;
+  min-height: 500px;
+}
+
+.breadcrumb {
+  font-family: Epilogue;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: grey;
+}
+
+#accommodations_content .title {
+  font-family: Playfair;
+}
+
+#accommodations_content p {
+  font-family: Epilogue;
+}
+
+#accommodations_content .card-text {
+  font-family: Epilogue;
+}
+
+#accommodations_content .card {
+  border: 0.2px solid #cecbcb;
+}
+
+#accommodations_content .card a {
+  text-decoration: none;
+  color: black;
+}
+
+#accommodations_content .card:hover {
+  -webkit-transform: translateY(3%);
+          transform: translateY(3%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=accommodations.css.map */

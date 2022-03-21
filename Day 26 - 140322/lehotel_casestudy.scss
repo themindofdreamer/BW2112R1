@@ -1,0 +1,140 @@
+$primary_font: Playfair;
+$secondary_font:Epilogue;
+$primary_text_color:white;
+
+@mixin title ($primary) {
+    .title {
+        font-family: $primary;
+    }
+}
+
+#banner {
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(right,transparent,rgba(3, 42, 87, 0.6) ), url(img/lehotel_cover.jpg);;
+    background-size: cover;
+    background-position: center;
+    .navbar-brand {
+        font-family: $primary_font;
+        font-weight: 600;
+        font-style: italic;
+        height: 20%;
+        color: $primary_text_color;
+        font-size: 30px;
+    }
+    .banner_text {
+        h1 {
+            font-family: $primary_font;
+            color: $primary_text_color;
+            font-size: 80px;
+        }
+        p {
+            font-family: $secondary_font;
+            color: $primary_text_color;
+            font-size: 18px;
+        }
+    }
+}
+
+#booking {
+    width: 70%;
+    height: 20%;
+    background: white;
+    margin: auto;
+    position: relative;
+    bottom: 40px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#accomodations {
+    height: 550px;
+    @include title($primary_font);
+
+    .room_img img {
+        width: 400px;
+    }
+    .room_text h4 {
+        font-family: $primary_font;
+        font-size: 60px;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    .room_text {
+        img {
+            width: 350px;
+            position: relative;
+            top: 35px;
+        }
+        hr {
+            border: 20px solid #bb7d59;
+            width: 50px;
+            opacity: inherit;
+            position: relative;
+            bottom: 45px;
+            z-index: -1;
+        }
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+    }
+}
+
+#exp {
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    background-color: #bb7d59;
+    @include title($primary_font);
+    .title {
+        position: relative;
+        right: 120px;
+        top: 35px;
+        color: white;
+    }
+    .carousel .carousel-item {
+        height: 600px;
+    }
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 600px;
+    }
+    .carousel-caption h5 {
+        font-family: $primary_font;
+        font-size: 22px;
+    }
+}
+
+#special_offers {
+    .card {
+        img {
+            height: 340px ;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .banner_text {
+       font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

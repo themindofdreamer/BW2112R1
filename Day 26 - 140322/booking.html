@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>le hÔtel - An unforgettable French touch</title>
+  <link rel="stylesheet" href="booking.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,200;0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- BOOKING HEADER -->
+  <div id="booking_header">
+    <nav class="navbar navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand pt-0 px-5" href="#">le hÔtel</a>
+        <button class="navbar-toggler bg-dark mx-4" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header bg-dark">
+            <button type="button" class="btn-close btn-close-white text-reset " data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body bg-dark">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">our story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">accommodations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">le restau</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">le spa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">special offers</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="room_slide">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/room_2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/room_4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/room_3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="container pt-3">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="lehotel_casestudy2.html">home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">booking</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- BOOKING CONTENT -->
+<div class="container" id="booking_main">
+  <div class="container booking_content">
+    <div class="booking_title">
+      <h1 class="title text-center pt-3"><b>CHOOSE</b> YOUR ROOM</h1>
+      <p class="text-center pt-3">Prices are for 1 person and 1 night.</p>
+      <p class="text-center">Prices are only valid for 15 minutes. Select the "Refresh prices" option when suggested.</p>
+    </div>
+    <div class="booking_checkbox">
+      <p>3 ROOMS FOR YOUR SEARCH</p>
+      <div class="filter_checkbox">
+        
+      </div>
+    </div>
+  </div>
+  <aside class="container checkout">
+
+  </aside>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <div class="container-fluid p-0 m-0" id="booking">
+    <div class="container" id="booking_content">
+      <div id="booking_layout ">
+        <h1 class="title text-center pt-3"><b>CHOOSE</b> YOUR ROOM</h1>
+        <p class="text-center pt-3">Prices are for 1 person and 1 night.</p>
+        <p class="text-center">Prices are only valid for 15 minutes. Select the "Refresh prices" option when suggested.
+        </p>
+
+        <div class="select_filter px-3 pt-5 row justify-content-between">
+          <h6 class="col-6">3 ROOMS FOR YOUR SEARCH</h6>
+          <div class="filter col-6 ">
+            <p class="d-inline-block">Filter : </p>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+              <label class="form-check-label" for="inlineCheckbox1">Free cancellation</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+              <label class="form-check-label" for="inlineCheckbox2">Breakfast included</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="container booking_container row col-8 pt-5 pb-5 mx-3 ">
+          <div class="booking_detail d-inline-block row ">
+            <img src="./img/room_rate1.jpg" alt="">
+            <div class="booking_name">
+              <h5>Le Jardin, 1 King size bed, city view</h5>
+              <p class="pt-2">maximum: 2 adults and 1 child | 30 m²/323 ft²</p>
+            </div>
+            <div class="rate bg-dark rounded-3">
+              <h4>110 $US</h4>
+              <small>For 1 night | 1 adult</small>
+            </div>
+            <button type="button" class="btn btn-dark rounded-3 w-25 mt-5 ">select a rate</button>
+          </div>
+        </div>
+        <div class="container booking_container row pt-5 pb-5 mx-3 mt-4 ">
+          <div class="booking_detail d-inline-block row ">
+            <img src="./img/room_rate2.jpg" alt="">
+            <div class="booking_name">
+              <h5>Rue de Lamarck Suite, 1 King size bed, ocean view</h5>
+              <p class="pt-2">maximum: 2 adults and 1 child | 30 m²/323 ft²</p>
+            </div>
+            <div class="rate bg-dark rounded-3">
+              <h4>150 $US</h4>
+              <small>For 1 night | 1 adult</small>
+            </div>
+            <button type="button" class="btn btn-dark rounded-3 w-25 mt-5 ">select a rate</button>
+          </div>
+        </div>
+        <div class="container booking_container row pt-5 pb-5 mx-3 mt-4 ">
+          <div class="booking_detail d-inline-block row ">
+            <img src="./img/room_rate3.jpg" alt="">
+            <div class="booking_name">
+              <h5>Turquoise Suite, 1 King size bed, ocean & garden view</h5>
+              <p class="pt-2">maximum: 2 adults and 1 child | 30 m²/323 ft²</p>
+            </div>
+            <div class="rate bg-dark rounded-3">
+              <h4>200 $US</h4>
+              <small>For 1 night | 1 adult</small>
+            </div>
+            <button type="button" class="btn btn-dark rounded-3 w-25 mt-5 ">select a rate</button>
+          </div>
+        </div>
+        <div class="policy mx-3">
+          <small>(1) The prices indicated are per accommodation (room, bed, etc.) or other services, for the number of
+            people and the date(s) selected previously, unless otherwise specified. If they are not included in the rate
+            or specifically selected when the reservation is made, supplementary services (breakfast, half board, full
+            board etc.) are available as option which can be paid at the hotel directly.
+            <br>
+            <br>
+            Taxes are included in the price or indicated in the tax details. Some taxes may be payable on arrival at the
+            hotel (for example, tourist tax), depending on current local regulations.
+            <br>
+            <br>
+            All bookings, wherever they are made, are payable in the hotel's currency.​ Only the amount confirmed during
+            the booking in the currency of the hotel is guaranteed. Conversion to the customer's currency is given for
+            reference only and is not part of the contract. Costs linked to conversions between the hotel's currency and
+            that of the customer (exchange rates, bank fees) shall be paid by the customer.​</small>
+        </div>
+      </div>
+    </div> -->
+    <!-- CHECK OUT -->
+    <!-- <div class="container row col-4 mx-4 rounded-3" id="checkout">
+      <div class="checkout_content pt-4">
+        <h5>YOUR STAY</h5>
+        <hr>
+        <div class="checkout_detail">
+          <h6>Rue de Lamarck Suite</h6>
+          <small>March 23, 2022 - March 25, 2022</small>
+          <small>2 nights</small>
+        </div>
+        <hr>
+        <div class="d-grid gap-2 col-12 mx-auto">
+          <button class="btn btn-dark" type="button">Validate</button>
+        </div>
+        <p class="text-center">select a room to continue</p>
+      </div>
+    </div>
+  </div> -->
+
+
+
+
+
+
+</body>
+
+</html>

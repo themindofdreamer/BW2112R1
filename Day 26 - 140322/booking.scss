@@ -1,0 +1,94 @@
+$primary_font: Playfair;
+$secondary_font:Epilogue;
+$primary_text_color:white;
+
+@mixin title ($primary) {
+    .title {
+        font-family: $primary;
+    }
+}
+
+#booking_header{
+    height: auto;
+    width: 100%;
+    .navbar-brand {
+        font-family: $primary_font;
+        font-weight: 600;
+        font-style: italic;
+        height: 20%;
+        color: $primary_text_color;
+        font-size: 30px;
+    }
+   
+    .carousel .carousel-item {
+        height: 500px;
+    }
+    .carousel-item img {
+        position: absolute;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+        
+    }
+}
+.breadcrumb {
+    font-family: $secondary_font;
+}
+.breadcrumb-item a {
+    text-decoration: none;
+    color: grey;
+}
+#booking_content {
+    @include title($primary_font);
+    p {
+        font-family: $secondary_font;
+    }
+    
+}
+
+// BOOKING CONTENT 
+#booking {
+    width: 100%;
+    height: auto;
+    #booking_content {
+        float: left;
+        
+        .booking_container {
+            width: 900px ;
+            height: auto;
+            background-color: #bb7d59;
+            border-radius: 10px;
+            
+            
+            .booking_detail {
+                img {
+                    width: 390px;
+                    height: 250px;
+                    float: left;
+                }
+                
+                .rate {
+                    width: 385px;
+                    height: 70px;
+                    float: left;
+                    color: white;
+                    padding-top: 5px;
+                }
+            }
+        }
+       
+    }
+    #checkout {
+        width: 25%;
+        height: 20%;
+        background-color: #bb7d59;
+        display: block;
+        float: right;
+        
+        
+    }
+}
+
+
+
