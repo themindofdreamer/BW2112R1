@@ -120,14 +120,4 @@
 #special_offers .card img {
   height: 340px;
 }
-
-#footer {
-  overflow-wrap: break-word;
-}
-
-@media screen and (max-width: 1000px) {
-  .banner_text {
-    font-size: 30px;
-  }
-}
 /*# sourceMappingURL=lehotel_casestudy.css.map */

@@ -54,6 +54,7 @@
   background-color: #bb7d59;
   border-radius: 10px;
   margin: 0;
+  color: white;
 }
 
 #booking #booking_content .booking_container .booking_text img {
@@ -76,5 +77,6 @@
   background-color: #bb7d59;
   display: block;
   float: right;
+  color: white;
 }
 /*# sourceMappingURL=booking.css.map */
